@@ -6,11 +6,13 @@ import { makeStyles } from '@material-ui/core/styles';
 import Modal from '@material-ui/core/Modal';
 import EditIcon from '@material-ui/icons/Edit';
 import './Todo.css'
+import { Autorenew } from '@material-ui/icons';
 
 const useStyles = makeStyles((theme) => ({
     paper: {
       position: 'absolute',
-      width: 400,
+      minWidth: 200,
+      margin:'0 auto',
       backgroundColor: theme.palette.background.paper,
       border: '2px solid #000',
       boxShadow: theme.shadows[5],
